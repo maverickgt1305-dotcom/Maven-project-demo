@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class AppTest {
 	@Test
     void testTotal() {
-        assertEquals(225000000,
+        assertEquals(225,
             App.calculateTotal(75, 68, 82));
     }
 
